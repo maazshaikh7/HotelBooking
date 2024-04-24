@@ -1,0 +1,57 @@
+/* Apply basic styles to the feedback container */
+#Fdiv {
+
+    width: 35vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+  }
+  
+  /* Style the feedback section heading */
+  #Fh2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the labels for ratings and text inputs */
+  #Flabel {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the star rating component */
+  .star-rating {
+
+    color: gray;
+    cursor: pointer;
+  }
+  
+  /* Style the textareas for feedback and suggestions */
+  #Ftextarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the submit button */
+  #Fbutton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #Fbutton:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,32 @@
+#roomlink1{
+    border-radius: 10px;
+    padding:5px 80px;
+    text-decoration: none;
+    color: black;
+}
+#roomlink1:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #454545;
+    color:white;
+    border-radius: 10px;
+}
+.roomtile{
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    width: fit-content;
+    height:fit-content;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.yourbookingstile{
+    padding: 20px 10px;
+    border: 0px;
+    border-radius: 15px;
+    background-color: white;
+    
+
+}

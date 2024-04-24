@@ -1,0 +1,138 @@
+.container{
+    background-color: rgb(169 188 173);
+}
+#cardborder0shadow{
+    max-width: 320px; margin: auto;
+}
+#link{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+#link:hover{
+    transition: all 0.4s;
+    color: rgb(255, 255, 255);
+    background-color: #3B3D31;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+#firstcon{
+    width:100%;
+    height: 400px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+body{
+    background-color: #EEEEEC;
+}
+
+#cardborder0shadow img{
+    height:200px;
+}
+#firstcon h2{
+    
+    margin-left: 120px ;
+    font-size: 80px;
+    font-weight: bolder;
+}
+#cardcon{
+    border-radius: 0px;
+}
+#secondcon{
+    z-index: -10;
+}
+#secondcon h2{
+    transform: rotate(0deg);
+    font-family: 'Inter', sans-serif;
+    margin-left: 35px;
+    font-size: 74px;
+    font-weight: 1000;
+    margin: 10px;
+}
+#firstcon img{
+    height: 800px;
+    width: 800px;
+    margin-left: 500px;
+}
+a{
+    text-decoration: none;
+}
+.loginregistertag{
+    color: black;
+}
+.loginregistertag:hover{
+    color: white;
+}
+#rotating-model{
+    padding:20px;
+}
+#rownavbarcontainer{
+    margin-top: -5px;
+    z-index: 0;
+    height: 80px;
+    box-shadow: 0px 0px 47px 21px rgba(175,170,144,1);
+-webkit-box-shadow: 0px 0px 47px 21px rgba(175,170,144,1);
+-moz-box-shadow: 0px 0px 47px 21px rgba(175,170,144,1);
+    border-radius: 14px;
+}
+body {
+    overflow-x: hidden;
+    overflow-x: hidden;
+}
+#section1topnavbar{
+    box-shadow: 0px 0px 60px 20px rgba(175,170,144,1);
+-webkit-box-shadow: 0px 0px 60px 20px rgba(175,170,144,1);
+-moz-box-shadow: 0px 0px 60px 20px rgba(175,170,144,1);
+}
+
+  
+  .section {
+    height: 100vh; /* Each section should cover the viewport height */
+    scroll-snap-align: start; /* Define the snap alignment (e.g., start, center) */
+  }
+  .section1{
+    transition: 1s all;
+    height: 100vh;
+  }
+  .section1:hover{
+    transition: 1s all;
+    transform: scale(0.99);
+  }
+  .row:hover{
+    transition: 1s all;
+    transform: scale(0.99);
+  }
+  .row{
+    transition: 1s all;       
+  }
+  @media (max-width: 768px) {
+    #firstcon h2 {
+        font-size: 60px;
+        font-weight: bolder;
+        text-align: start;
+        margin-left: 10px;
+    }
+    #firstcon img{
+        display: none;
+    }
+    #rownavbarcontainer{
+        height:fit-content;
+    }
+    .row{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    #secondcon h2 {
+        margin-left: 44px;
+        font-size: 44px;
+        font-weight: 900;
+        text-align: start;
+    }
+    #cardcon{
+        margin: 15px;
+    }
+}

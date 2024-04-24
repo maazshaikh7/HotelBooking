@@ -1,0 +1,356 @@
+.body{
+  font-family: 'Inter', sans-serif;
+    background-color: #e6faff;
+}
+
+.Headinglist{
+    margin-top: 100px;
+}
+
+
+
+.HeadingHotel{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hotel-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 columns */
+    gap: 10px; /* Gap between tiles */
+    margin: 20px;
+}
+.hotel-tile {
+      width: 300px;
+    text-align: left;
+    height: 440px;
+    border-radius: 10px;
+    border: 0px solid #ccc;
+    padding: 20px;
+    background-color: #e6faff;
+    border-radius: 20px;
+}
+.hotel-tile h2 {
+    margin: 0;
+}
+.hotel-tile button {
+    margin-top: 10px;
+}
+
+
+.category-button {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 40px;
+    width:100px;
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: #45454500 2px solid ;
+
+}
+.category-button:hover{
+    border: #454545 2px solid ;
+    background-color: #454545;
+    color: white;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+.category-button.active {
+    background-color:#454545;
+    color: white;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
+
+}
+
+.category-section{
+    background-color: #E6FAFF;
+    height: 50px;
+}
+#imgcon{
+    width: 95%;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+#roomlink{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    width: 95%;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding:5px 80px;
+    text-decoration: none;
+    color: black;
+}
+#roomlink:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #454545;
+    color:white;
+    border-radius: 10px;
+}
+#heading2{
+    font-size: 26px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+#heading3{
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+#sectionnavbar{
+  height: 8vh;
+    margin-top: -100px;
+    position: "relative";
+    background-color: #e6faff;
+}
+#cardborder0shadow{
+  height: fit-content;
+    transition: all 1s;
+    padding: 40px 20px 40px 20px;
+    border-radius: 20px;
+}
+#cardborder0shadow:hover{
+    transition: all 1s;
+    transform: scale(1.03);
+}
+  
+  .movie--isloading {
+    width: 320px ;
+    height: 300px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  
+  .movie--isloading .loading-image {
+
+    width: 80%;
+    height: 190px;
+    background-image: -webkit-linear-gradient(left, #ececec 0px, #f4f4f4 40px, #ececec 80px);
+    background-image: -o-linear-gradient(left, #ececec 0px, #f4f4f4 40px, #ececec 80px);
+    background-image: linear-gradient(90deg, #ececec 0px, #f4f4f4 40px, #ececec 80px);
+    background-size: 250px;
+    -webkit-animation: shine-loading-image 2s infinite ease-out;
+            animation: shine-loading-image 2s infinite ease-out;
+  }
+  
+  .movie--isloading .loading-content {
+    width: 80%;
+    background: #f7f7f7;
+    padding: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .movie--isloading .loading-content .loading-text-container {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  
+  .movie--isloading .loading-content .loading-main-text {
+    height: 10px;
+    width: 65%;
+    margin-bottom: 10px;
+    background: #ececec;
+    background-image: -webkit-linear-gradient(left, #ececec 0px, #ddd 40px, #ececec 80px);
+    background-image: -o-linear-gradient(left, #ececec 0px, #ddd 40px, #ececec 80px);
+    background-image: linear-gradient(90deg, #ececec 0px, #ddd 40px, #ececec 80px);
+    background-size: 250px;
+    border-radius: 10px;
+    -webkit-animation: shine-loading-container-items 2s infinite ease-out;
+            animation: shine-loading-container-items 2s infinite ease-out;
+  }
+  button{
+    text-align: center;
+  }
+  
+  .movie--isloading .loading-content .loading-sub-text {
+    height: 10px;
+    width: 50%;
+    background: #ececec;
+    background-image: -webkit-linear-gradient(left, #ececec 0px, #ddd 40px, #ececec 80px);
+    background-image: -o-linear-gradient(left, #ececec 0px, #ddd 40px, #ececec 80px);
+    background-image: linear-gradient(90deg, #ececec 0px, #ddd 40px, #ececec 80px);
+    background-size: 250px;
+    border-radius: 10px;
+    -webkit-animation: shine-loading-container-items 2s infinite ease-out;
+            animation: shine-loading-container-items 2s infinite ease-out;
+  }
+  
+  .movie--isloading .loading-content .loading-btn {
+    width: 60px;
+    height: 25px;
+    background: #ececec;
+    background-image: -webkit-linear-gradient(left, #ececec 0px, #ddd 40px, #ececec 80px);
+    background-image: -o-linear-gradient(left, #ececec 0px, #ddd 40px, #ececec 80px);
+    background-image: linear-gradient(90deg, #ececec 0px, #ddd 40px, #ececec 80px);
+    background-size: 250px;
+    border-radius: 3px;
+    -webkit-animation: shine-loading-container-items 2s infinite ease-out;
+            animation: shine-loading-container-items 2s infinite ease-out;
+  }
+  
+  
+  @-webkit-keyframes shine-loading-image {
+    0% {
+      background-position: -32px;
+    }
+    40%, 100% {
+      background-position: 208px;
+    }
+  }
+  
+  
+  @keyframes shine-loading-image {
+    0% {
+      background-position: -32px;
+    }
+    40%, 100% {
+      background-position: 208px;
+    }
+  }
+  
+  @-webkit-keyframes shine-loading-container-items {
+    0% {
+      background-position: -100px;
+    }
+    40%, 100% {
+      background-position: 140px;
+    }
+  }
+  
+  @keyframes shine-loading-container-items {
+    0% {
+      background-position: -100px;
+    }
+    40%, 100% {
+      background-position: 140px;
+    }
+  }
+
+  @media (max-width: 768px){
+      .hotel-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 3 columns */
+        gap: 10px; /* Gap between tiles */
+        margin: 20px;
+    }
+  }
+  @media (max-width: 600px){
+    .hotel-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); /* 3 columns */
+      gap: 10px; /* Gap between tiles */
+      margin:50px 20px;
+  }
+  .category-section{
+    height: fit-content;
+  }
+  #cardborder0shadow{
+    height: 380px;
+  }
+  
+}
+@media (max-width: 950px){
+  .hotel-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 10px; /* Gap between tiles */
+    margin: 0px;
+  }
+}
+
+/* Apply styles to the select element */
+select {
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.3s all;
+  font-size: 20px; /* Set the font size */
+  padding: 10px 15px; /* Set padding */
+  border: 0px solid; /* Add a border */
+  border-radius: 12px; /* Add border radius */
+  background-color: #fff; /* Set background color */
+  color: #333; /* Set text color */
+}
+
+/* Apply styles when the select is hovered */
+select:hover {
+  transform: scale(1.01);
+  color: #ffffff;
+  transition: 0.5s all;
+  background-color: #454545;
+}
+
+/* Apply styles when the select is focused (clicked or active) */
+select:focus {
+  transform: scale(1.01);
+  outline: none;
+  color: #ffffff;
+  transition: 0.5s all;
+  background-color: #454545;
+}
+
+/* Style the options within the select */
+select option {
+  font-size: 16px; /* Set the font size for options */
+}
+
+#scrollable-buttons {
+  width:fit-content;
+  flex: 1; /* Makes the buttons section expand to fill available space */
+  display: flex;
+  margin-top: 5px;
+  overflow-x: auto; /* Enables horizontal scrolling if buttons overflow */
+}
+
+#scrollable-buttons button {
+  width:fit-content;
+  margin-right: 10px; /* Adds some spacing between buttons */
+}
+
+#sorting-dropdown {
+  margin-left: 10px; /* Adds spacing between the buttons and the dropdown */
+}
+.category-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
